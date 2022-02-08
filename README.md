@@ -35,9 +35,9 @@ Projede Türkçe metinlerde duygu analizi yaparak  verilen cümlenin belirttiği
          for kelime in kelimeler:
         		 if(kelime in p_k):
             		pozitif_kelime_sayisi+=1
-       		   if(kelime in p_f):
+       		 if(kelime in p_f):
             		pozitif_fiil_sayisi+=1
-      		   if(kelime in n_k):
+      		 if(kelime in n_k):
           			negatif_kelime_sayisi+=1
         		 if(kelime in n_f):
             		negatif_fiil_sayisi+=1
