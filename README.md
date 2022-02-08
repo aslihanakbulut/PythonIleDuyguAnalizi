@@ -32,7 +32,7 @@ Projede Türkçe metinlerde duygu analizi yaparak  verilen cümlenin belirttiği
  
 8-	Cumleyi_Analiz_Et fonksiyonu ile köklerine ayrılmış cümlede kelimelerin kelime listesinde bulunduğu sınıfa göre olumlu-olumsuz olma durumunun kontrol edilmesi ve buna bağlı olarak gerekli değişkenlerin güncellenmesi
 
-         for kelime in kelimeler:
+                 for kelime in kelimeler:
         		 if(kelime in p_k):
             		pozitif_kelime_sayisi+=1
        		 if(kelime in p_f):
